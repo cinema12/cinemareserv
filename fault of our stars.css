@@ -1,0 +1,336 @@
+html{scroll-behavior: smooth;}
+
+
+*{
+  padding: 0;
+  margin: 25;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  color: black;
+  
+  
+}
+body{
+  background: #dddddd;
+  color: rgb(156, 156, 156);
+}
+header{
+  position: fixed;
+  width: 100%;
+  height: 11%;
+  top: -10px;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  transition: 0.5s;
+  background: #24252a;
+  border-radius: 0px;
+  box-shadow: 0 0 12px #333;
+}
+section{
+  padding: 4.5rem 0 1.5rem;
+  margin: 6%;
+}
+.logo{
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-family:'Brush Script MT',cursive;
+}
+.fa-ticket{
+  font-size: 1.9rem;
+  color:#fff;
+}
+.navbar{
+  display: flex;
+  column-gap: 5rem;
+}
+.navbar li{
+  position: relative;
+}
+.navbar a{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  letter-spacing:2px;
+}
+.navbar a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #77a7a9;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.4s all linear;
+}
+.navbar a:hover::after, 
+.navbar::after{
+  width: 100%;
+   
+}
+
+.page__info__genre p{
+  display: inline-block;
+}
+.page__info__duration p{
+  display: inline-block;
+}
+
+.page__info__lang p{
+  display: inline-block;
+}
+.page__info__rate p{
+  display: inline-block;
+}
+
+.page__infor p{
+  display: block;
+}
+
+
+
+div.page{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+p.page__top {
+    margin-inline-start: 0cm;
+    padding: 9px;
+    margin-bottom: 0.0cm;
+    background-color: #77a7a9;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    font-size:1.71429rem;
+    margin-top: 11.7%;
+    
+  }
+  div.page__info{
+      padding: 24px 20px 50px 20px;
+      background-color: #EFEFEF;
+      font-size: 15px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      
+  }
+  p.page__paragraph__des{
+    font-size: large;
+  }
+  .cast__pic--2__shailene{
+    display: block;
+    margin-left: 111px;
+  }
+  .cast__pic--3{
+    margin-left: 204px;
+    margin-top: -100px;
+  }
+  
+  .cast__pic--3__ansel{
+    
+    margin-left: 238px;
+    margin-top: 21px;
+  }
+
+
+  .cast__pic--4{
+    margin-top: 41px;
+    margin-left: -125px;
+  }
+  .cast__pic--4__laura{
+    display: block;
+  }
+  
+
+  .cast__pic--5{
+    margin-left: 330px;
+    margin-top: -70px;
+  }
+  .cast__pic--5__nat{
+    margin-right: -100px;
+  } 
+
+  .cast__pic--6{
+    margin-top: 35px;
+    margin-left: -170px;
+  }
+  .cast__pic--6__willem{
+    margin-top: 10px;
+  }
+  .tralier__fault of our stars{
+    margin-top: 10px;
+   
+  }
+
+  p.top2{
+    margin-inline-start: 0cm;
+    padding: 9px;
+    margin-bottom: 0.0cm;
+    background-color: #77a7a9;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    font-size:1.71429rem;
+  }
+  div.cast__pic--1{
+    float: left;
+    margin-left: 1cm;
+    margin-top: 0.2cm;
+  }
+  div.cast{
+      background-color: #EFEFEF;
+      padding-bottom: 9.5cm;
+      font-size: 14px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+  }
+  button{
+    padding: 0.7rem 1.4rem;
+    background: #77a7a9;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 15px;
+    border: none;
+  }
+  button:hover{
+    background: #35676b;
+}
+footer{
+  max-width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #242424; */
+  background-color: #77a7a9;
+  /* border: #242424 solid 50px; */
+  border: #77a7a9 solid 50px;
+}
+.social{
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: #242424; 
+
+}
+.social .fa-brands {
+  background: #242424;
+  padding: 2px;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 5px solid rgp(2,3,7,0.4);
+  color: #fff;
+}
+.social .fa-brands:hover{
+  background: #35676b;
+  color: #49898e;
+  transition: 0.2s all linear;
+}
+.contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.card{
+  background: #2f3542;
+  padding: 0 10px;
+  margin: 0 20px;
+  width: calc(33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.card .icon{
+  font-size: 28px;
+  background: #77a7a9;
+  color: white;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.card:hover .icon{
+   background: none;
+   color: #77a7a9;
+   transform: scale(1.6);
+   
+
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  color: white;
+}
+.fa-facebook:before {
+  content: "\f16d";
+  color: white;
+}
+.fa-twitter:before {
+  content: "\f16d";
+  color: white;
+}
+.card p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0.1; 
+  transition: 0.3s linear;
+  color: white;
+  text-decoration: none;
+}
+.card p:hover{
+  max-height: 40px;
+  opacity: 1;
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
+  .page__info__genre p{
+    display: inline-block;
+    font-size: 17px;
+  }
+  .page__info__duration p{
+    display: inline-block;
+    font-size: 17px;
+  }
+  
+  .page__info__lang p{
+    display: inline-block;
+    font-size: 17px;
+  }
+  .page__info__rate p{
+    display: inline-block;
+    font-size: 17px;
+  }
+  
+  .page__infor p{
+    display: block;
+    font-size: 17px;
+  }
+  
+}

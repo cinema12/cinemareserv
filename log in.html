@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet"href="log in.css">
+    <script src="https://kit.fontawesome.com/39308665b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class="fa-solid fa-ticket"></i> La Cinéphile Cinema
+        </a>
+        <a href="index.html" class="button">BACK</a>
+    </header>
+    <div class="reg">
+        <div class="head"><h1>LOG IN</h1></div>
+        <div class="form">
+        <form  autocomplete="off" method="get" >
+            <input type="text" class="username" placeholder="Username" required><br><br>
+            <input type="password" class="box" name="password" minlength="8" placeholder="Password" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[~!@#$%^&*(_=)\|/*-+'?:]).{8,}" required><br><br>
+            <input type="submit" class="button"formaction="index.html" value="LOG IN" title="Log in">
+        </form>
+        </div>
+    </div>
+</body>
+</html>

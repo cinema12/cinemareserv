@@ -1,0 +1,224 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image:url('Movie time concept_ Cinema banner de.jpg');  
+    /*background-size:1540px 900px;*/
+    background-size:contain;
+    overflow:auto;
+    background-repeat: no-repeat;
+    font-family:copperplate;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #24252a;
+    /* border-radius: 0 0 15px 15px; */
+    box-shadow:0 0 12px #333;
+    width: auto;
+    height: 1cm;
+    
+    justify-content:space-between;
+}
+.logo{
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-family:Brush Script MT;
+    text-decoration: none;
+}
+.fa-ticket{
+    font-size: 1.9rem;
+    color:#fff;
+}
+.button{
+    padding: 0.7rem 1.4rem;
+    background: #49898e;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing:2px;
+}
+.button:hover{
+    background: #35676b;
+}
+
+
+.reg{
+    position: relative;
+    width: 400px;
+    border:5px rgba(0, 0, 0, 0.2) rounded;
+    margin-top:60px;
+    margin-left:1010px;
+    margin-bottom: 104px;
+    background-color:rgba(0, 0, 0, 0.094);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 12px #333;
+}
+
+.head h1{
+    
+    font-family:fantasy;
+    padding: 50px;
+    color:#49898e;
+}
+.form input{
+    text-align: left;
+    width: 300px;
+    height: 30px;
+    outline:none;
+    border:none;
+    box-sizing: border-box;
+    font-size:15px;
+    padding-left:10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius:10px;
+}
+input[type="submit"]{
+    padding-left: 0;
+    text-align: center;
+    background-color:#49898e;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor:pointer;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing:2px;
+    padding: 1px;
+    font-size: 19px;
+    margin-top: 5px;
+}
+input[type="submit"]:hover{
+    box-shadow:1px 1px 4px #555;
+}
+#male{
+    width:fit-content;
+    height:fit-content;
+}
+#female{
+    width:fit-content;
+    height: fit-content;
+}
+#conditions{
+    width:fit-content;
+    height: fit-content;
+}
+#city{
+    text-align: left;
+    width: 300px;
+    height: 30px;
+    outline:none;
+    border:none;
+    box-sizing: border-box;
+    font-size:15px;
+    padding-left:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+p{
+    padding-bottom:25px;
+}
+
+@media (min-width:359px) and (max-width: 434px) {
+    body{
+        background:#77a7a9; 
+    }
+    .reg{
+        width: 400px;
+        /* width: 300px; */
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    /* .form input{
+        width: 200px;
+    } */
+
+    .head h1{
+        color:#fff;
+        font-weight: 200;
+    }
+    input[type="submit"]{
+        background-color: #fff;
+        color: #49898e;
+    }
+    input[type="submit"]:hover{
+        box-shadow:1px 1px 4px #555;
+        background-color: rgb(197, 197, 197);
+    }
+}
+@media (min-width: 434px) and (max-width: 1250px){
+    body{
+        background:#77a7a9; 
+    }
+    .reg{
+        width: 400px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .head h1{
+        color:#fff;
+        font-weight: 200;
+    }
+    input[type="submit"]{
+        background-color: #fff;
+        color: #49898e;
+    }
+    input[type="submit"]:hover{
+        box-shadow:1px 1px 4px #555;
+        background-color: rgb(197, 197, 197);
+    }
+}
+@media (max-width:652px) and (min-width: 359px){
+    header{
+        display:flex;
+        align-items: center;
+        padding: 20px 17px;
+        background-color: #24252a;
+        box-shadow:0 0 12px #333;
+        width: 100%;
+        justify-content:space-between;
+    }
+
+    .logo{
+        font-size: 1.9rem;
+        font-weight: 400;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+        font-family:Brush Script MT;
+        text-decoration: none;
+    }
+    .fa-ticket{
+        font-size: 1.9rem;
+        color:#fff;
+    }
+    .button{
+        padding: 0.7rem 1.4rem;
+        background: #49898e;
+        color: #fff;
+        font-weight: 400;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: fantasy;
+        font-weight: 100;
+        letter-spacing:2px;
+    }
+}
+
